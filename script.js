@@ -8,8 +8,9 @@ const cityHide = document.querySelector(".city-hide");
 search.addEventListener("click", () => {
   const APIKey = "fb8f2941e4c1d10555574bd1eb0dc306";
   const city = document.querySelector(".search-box input").value.trim();
-  if (city === "") return;  
-
+  if (city === "") return; 
+ 
+// used open weather map api
   fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}`
   )
