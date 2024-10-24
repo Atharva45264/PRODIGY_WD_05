@@ -48,13 +48,13 @@
     padding: 0 48px 0 42px;
   }
   .search-box input::placeholder {
-    color: #fff;
+    color: #1dc198;
     text-transform: capitalize;
   }
   .search-box i {
     position: absolute;
     left: 10px;
-    font-size: 28px;
+    font-size: 26px;
   }
   .search-box button {
     position: absolute;
